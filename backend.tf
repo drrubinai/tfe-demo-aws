@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    hostname     = "terraform.io"
+    hostname     = "app.terraform.io"
     organization = "demos-sentinel"
 
     workspaces {
